@@ -7,7 +7,7 @@ Unefficient home automation with HTTP
 - update: `sudo apt-get update`
 - install pip3: `sudo apt install -y python3-pip`
 - move into the direcotry: `cd home-HTTPserver`
-- install pip requirements `python3.8 -m pip install -r requirements.txt --user`
+- install pip requirements `pip3 install -r requirements.txt --user`
 
 
 ## How to run it
