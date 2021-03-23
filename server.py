@@ -20,7 +20,7 @@ def dispatch_query(_key, _value):
 
 
 def read_temperature():
-    return "{}".format(round(random.uniform(UPPER_TEMP, LOWER_TEMP), 2)))
+    return "{}".format(round(random.uniform(UPPER_TEMP, LOWER_TEMP), 2))
 
 
 @app.route('/living_room/temperature', methods=['GET'])
